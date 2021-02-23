@@ -13,6 +13,7 @@ class Rectangle(
     val isSquareeee: Boolean
         get() {
             return height == width
+
         }
 
     val isSquareTest
