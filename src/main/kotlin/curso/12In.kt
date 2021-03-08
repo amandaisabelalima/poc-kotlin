@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 fun main() {
     println(isLetter('a'))

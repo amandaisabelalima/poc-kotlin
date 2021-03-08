@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 class Classes(
     //construtor primário

@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 import java.util.*
 

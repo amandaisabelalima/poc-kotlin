@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 fun main() {
     var temperature: Int = 0
@@ -7,7 +7,7 @@ fun main() {
 
     while (temperature != 999) {
         println("enter a temperature or 999 to exit: ")
-        temperature = readLine()!!.toInt() //!! - quer dizer que sempre será informado um número e toInt - convertido para inteiro
+        temperature = readLine()!!.toIntOrNull() ?: 0 //!! - quer dizer que sempre será informado um número e toInt - convertido para inteiro
 
         if(temperature != 999) {
             sum += temperature

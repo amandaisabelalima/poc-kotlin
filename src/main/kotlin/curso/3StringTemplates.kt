@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 fun main() {
     val name = "Amanda"

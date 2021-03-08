@@ -1,7 +1,6 @@
-package cursoyoutube
+package curso
 
 import java.lang.IllegalArgumentException
-import kotlin.math.exp
 
 //(1 + 2) + 4
 
@@ -37,3 +36,28 @@ fun calculationWithWhen(expression: Expression) =
         is Sum -> expression.left + expression.right
         else -> throw IllegalArgumentException("unknown expression")
     }
+
+
+
+
+fun main() {
+    testSmartCast("amanda")
+    testSmartCast(2)
+    testSmartCastTwo(8.4)
+}
+
+fun testSmartCast(x: Any) {
+    if(x is String) {
+        println(x.toUpperCase()) //kotlin já faz o cast sozinho e consigo usar funções de String
+    } else if(x is Int) {
+        println(x.plus(3)) //a mesma coisa pra int
+    }
+}
+
+fun testSmartCastTwo(x: Any) {
+    when(x) {
+        is String -> println(x.toUpperCase())
+        is Int -> println(x.plus(3))
+        else -> println("me ajuda a te ajudar, amigo")
+    }
+}

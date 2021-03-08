@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 class Person (
     val name: String,

@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 fun main(){
     println("NUMERO MAIOR: " + max(5,3))
@@ -16,7 +16,7 @@ fun max(number1: Int, number2: Int): Int {
 }
 
 
-//função com corpo de expressão (não tem o {}) -> NÃO USA return e tipo de retorno declarado
+//função 6com corpo de expressão (não tem o {}) -> NÃO USA return e tipo de retorno declarado
 fun min(number1: Int, number2: Int) = if (number1 < number2) number1 else number2
 
 

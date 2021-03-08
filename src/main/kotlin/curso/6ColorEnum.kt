@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 enum class Color(
     val red: Int,

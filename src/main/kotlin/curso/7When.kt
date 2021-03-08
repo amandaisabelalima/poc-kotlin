@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 fun getDescription(color: Color) =
     //switch do java

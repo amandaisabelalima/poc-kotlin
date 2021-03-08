@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 //var de nível elevado (fora de um método ou classe): pode ser utilizada em qualquer lugar no projeto, inclusive em outros arquivos
 val year = 2021;

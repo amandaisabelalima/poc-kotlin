@@ -1,4 +1,4 @@
-package cursoyoutube
+package curso
 
 class Rectangle(
     val height: Int,
@@ -9,7 +9,7 @@ class Rectangle(
         return height == width
     }
 
-    //acessor customizado - qual a diferença dele para a função acima???
+    //acessor customizado - qdo é algo simples, sem muita lógica dentro, é mais comum fazer dessa forma
     val isSquareeee: Boolean
         get() {
             return height == width
