@@ -1,7 +1,5 @@
 package curso.lambdas
 
-import curso.funcoes.calc
-
 /*
 calculadora comm dois métodos:
 1 - somando dois elementos

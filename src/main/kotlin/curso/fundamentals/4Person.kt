@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class Person (
     val name: String,

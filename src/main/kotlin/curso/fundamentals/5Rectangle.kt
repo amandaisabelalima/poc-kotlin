@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class Rectangle(
     val height: Int,

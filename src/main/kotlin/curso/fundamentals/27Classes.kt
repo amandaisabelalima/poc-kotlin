@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class Data(var dia: Int, var mes: Int, var ano: Int) {
     fun formatar() : String{

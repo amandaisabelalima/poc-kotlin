@@ -1,4 +1,4 @@
-package curso.funcoes
+package curso.functions
 
 //melhora desempenho
 //com função inline dá para executar coisas antes e depois de outra função

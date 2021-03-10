@@ -1,4 +1,4 @@
-package curso.funcoes
+package curso.functions
 
 class Product(val name: String, val price: Double)
 

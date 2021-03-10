@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class ItemPedido(val nome: String, val preco: Double) {
     //tudo o que estiver aqui dentro é associado à classe, e não à instância.

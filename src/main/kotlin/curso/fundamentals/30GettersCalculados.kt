@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class Produto(var nome: String, var preco: Double, var desconto: Double, var ativo: Boolean) {
     val inativo: Boolean get() = !ativo

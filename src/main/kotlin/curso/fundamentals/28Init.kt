@@ -1,4 +1,4 @@
-package curso
+package curso.fundamentals
 
 class Filme(nome: String, anoLancamento: Int, genero: String) {
     val nome: String

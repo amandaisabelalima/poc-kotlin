@@ -1,4 +1,4 @@
-package curso.funcoes
+package curso.functions
 
 fun detail(name: String, age: Int) {
     return println("$name tem $age anos")
