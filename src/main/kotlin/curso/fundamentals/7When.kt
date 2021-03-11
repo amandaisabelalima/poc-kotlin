@@ -1,5 +1,7 @@
 package curso
 
+import curso.fundamentals.Color
+
 fun getDescription(color: Color) =
     //switch do java
     when(color) {
